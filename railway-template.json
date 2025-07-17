@@ -1,0 +1,23 @@
+{
+  "name": "DonutSMP Verification System",
+  "description": "Discord OAuth2 verification system for DonutSMP server",
+  "repository": "https://github.com/wywn1/Goodfornotyou56",
+  "env": {
+    "CLIENT_ID": {
+      "description": "Discord Application Client ID",
+      "required": true
+    },
+    "CLIENT_SECRET": {
+      "description": "Discord Application Client Secret", 
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Discord Bot Token",
+      "required": true
+    },
+    "SESSION_SECRET": {
+      "description": "Flask Session Secret",
+      "generator": "secret"
+    }
+  }
+}
